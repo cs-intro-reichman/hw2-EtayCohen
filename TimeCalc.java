@@ -9,6 +9,6 @@ public class TimeCalc {
         int newMinutes = cuurentTimeInMinutes % 60;
         int newHours = (cuurentTimeInMinutes / 60) % 24;
 
-        System.out.println(String.format("%d:%02d", newHours, newMinutes));
+        System.out.println(String.format("%02d:%02d", newHours, newMinutes));
     }
 }
