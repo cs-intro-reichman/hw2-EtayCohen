@@ -11,7 +11,7 @@ public class Cheers {
 			boolean isSpecialChar = letters.indexOf(cheer.charAt(i)) != -1;
 			String prefix = isSpecialChar ? "Give me an" : "Give me a ";
 
-			System.out.println(String.format("%s %s: %s!", prefix, cheer.charAt(i), cheer.charAt(i)));
+			System.out.println(prefix + " " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
 		}
 
 		System.out.println("What does that spell?");

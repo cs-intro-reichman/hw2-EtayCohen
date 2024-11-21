@@ -13,11 +13,11 @@ public class TestRandom {
 
 		int lessThanCount = iterations - greaterCount;
 
-		System.out.println(String.format("> 0.5:  %d times", greaterCount));
-		System.out.println(String.format("<= 0.5: %d times", lessThanCount));
+		System.out.println("> 0.5:  " + greaterCount + " times");
+		System.out.println("<= 0.5: " + lessThanCount + " times");
 
 		if (lessThanCount != 0) {
-			System.out.println(String.format("Ratio:  %f", (double) greaterCount / lessThanCount));
+			System.out.println("Ratio:  " + (double) greaterCount / lessThanCount);
 		}
 	}
 }

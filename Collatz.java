@@ -19,10 +19,10 @@ public class Collatz {
 			} while (seed != 1);
 
 			if (isVerbose) {
-				System.out.println(String.format("%s(%d)", verboseOutput, count));
+				System.out.println(verboseOutput + "(" + count + ")");
 			}
 		}
 
-		System.out.println(String.format("Every one of the first %d hailstone sequences reached 1.", iterations));
+		System.out.println("Every one of the first " + iterations + " hailstone sequences reached 1.");
 	}
 }
